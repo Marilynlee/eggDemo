@@ -1,0 +1,29 @@
+h1{
+    color:red;
+}
+.news-view{
+    display: block;
+}
+
+.news-view .item {
+    list-style: none;
+    margin: 10px 0 50px;
+}
+
+.news-view .item .img {
+    display: block;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.news-view .item .title{
+    color: #333;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.news-view .item .title:link {
+    color: #333;
+}

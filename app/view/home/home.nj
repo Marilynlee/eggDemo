@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Hacker News</title>
+    <link rel="stylesheet" href="/public/css/global.css" />
+  </head>
+  <body>
+    <h1>Hi Lyn!</h1>
+    <ul class="news-view view">
+      {% for item in list %}
+        <li class="item">
+          <img class="img" src="{{item.thumbnail_pic_s}}"/>
+          <a class="title" href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

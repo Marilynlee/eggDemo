@@ -1,0 +1,22 @@
+{
+  "name": "eggDemo",
+  "version": "1.0.0",
+  "description": "egg demo!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "keywords": [
+    "egg"
+  ],
+  "author": "lyn",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.23.0",
+    "egg-view-nunjucks": "^2.2.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.13.0"
+  }
+}

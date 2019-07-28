@@ -1,0 +1,177 @@
+2019-07-28 00:18:33,267 ERROR 5416 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 5416
+hostname: Dragon
+
+2019-07-28 00:56:56,557 ERROR 6900 [-/127.0.0.1/-/3ms GET /] nodejs.TypeError: this.config.keys.split is not a function
+    at Application.get keys [as keys] (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg\lib\application.js:269:37)
+    at Object.get cookies [as cookies] (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 6900
+hostname: Dragon
+
+2019-07-28 01:12:51,907 ERROR 7840 [-/127.0.0.1/-/5030ms GET /] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\urllib\lib\urllib.js:923:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5018,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 7840
+hostname: Dragon
+
+2019-07-28 01:13:00,286 ERROR 7840 [-/127.0.0.1/-/5003ms GET /] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\urllib\lib\urllib.js:923:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5003,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 7840
+hostname: Dragon
+
+2019-07-28 01:13:08,633 ERROR 7840 [-/127.0.0.1/-/5002ms GET /] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\urllib\lib\urllib.js:923:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5002,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 7840
+hostname: Dragon
+
+2019-07-28 01:14:01,514 ERROR 7840 [-/127.0.0.1/-/5001ms GET /] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\urllib\lib\urllib.js:923:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 4
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5001,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 7840
+hostname: Dragon
+
+2019-07-28 14:00:55,803 ERROR 1232 [-/127.0.0.1/-/5044ms GET /] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\urllib\lib\urllib.js:923:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5031,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 1232
+hostname: Dragon
+
+2019-07-28 14:33:44,273 ERROR 3748 [-/127.0.0.1/-/133ms GET /] nodejs.TypeError: undefined is not a function
+    at HomeService.list (C:\Users\Dragon-PC\Desktop\eggDemo\app\service\home.js:13:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 3748
+hostname: Dragon
+
+2019-07-28 14:38:17,713 ERROR 5800 [-/127.0.0.1/-/137ms GET /] nodejs.ReferenceError: data is not defined
+    at HomeService.list (C:\Users\Dragon-PC\Desktop\eggDemo\app\service\home.js:32:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 5800
+hostname: Dragon
+
+2019-07-28 14:40:17,955 ERROR 144 [-/127.0.0.1/-/137ms GET /] nodejs.TypeError: Cannot read property 'data' of undefined
+    at HomeService.list (C:\Users\Dragon-PC\Desktop\eggDemo\app\service\home.js:31:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 144
+hostname: Dragon
+
+2019-07-28 14:40:56,236 ERROR 6312 [-/127.0.0.1/-/142ms GET /] nodejs.TypeError: Cannot read property 'data' of undefined
+    at HomeService.list (C:\Users\Dragon-PC\Desktop\eggDemo\app\service\home.js:30:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 6312
+hostname: Dragon
+
+2019-07-28 14:41:27,750 ERROR 4448 [-/127.0.0.1/-/160ms GET /] nodejs.TypeError: Cannot read property 'data' of undefined
+    at HomeService.list (C:\Users\Dragon-PC\Desktop\eggDemo\app\service\home.js:31:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 4448
+hostname: Dragon
+
+2019-07-28 21:56:50,589 ERROR 7768 [-/127.0.0.1/-/144ms GET /] nodejs.TypeError: Cannot read property 'app' of undefined
+    at HomeController.index (C:\Users\Dragon-PC\Desktop\eggDemo\app\controller\home.js:13:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 7768
+hostname: Dragon
+
+2019-07-28 22:00:10,899 ERROR 7280 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'app' of undefined
+    at robotMiddleware (C:\Users\Dragon-PC\Desktop\eggDemo\app\middleware\robot.js:4:30)
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at xframe (C:\Users\Dragon-PC\Desktop\eggDemo\node_modules\egg-security\lib\middlewares\xframe.js:7:11)
+
+pid: 7280
+hostname: Dragon
+

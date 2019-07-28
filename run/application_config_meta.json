@@ -1,0 +1,278 @@
+{
+  "keys": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\config\\config.default.js",
+    "mapping": {
+      ".tpl": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\config\\config.default.js"
+    },
+    "root": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "home": {
+    "pageSize": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\config\\config.default.js",
+    "serverUrl": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\config\\config.default.js"
+  },
+  "middleware": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\config\\config.default.js",
+  "robot": {
+    "ua": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "name": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "version": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "description": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "main": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "test": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "dev": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "author": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "license": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "strict": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "depth": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "env": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "level": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "logging": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "port": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "C:\\Users\\Dragon-PC\\Desktop\\eggDemo\\node_modules\\egg\\config\\config.default.js"
+}
